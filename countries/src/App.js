@@ -67,7 +67,9 @@ class App extends React.Component {
               region={this.state.region}
               population={this.state.population}
             />
-            <Card {...this.state} />
+
+                   {/* <Card {...this.state}/> */}
+
           </div>  
 
         </div>   

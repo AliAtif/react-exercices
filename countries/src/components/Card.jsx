@@ -11,10 +11,10 @@ class Card extends React.Component {
           alt={`Drapeau de la ${this.props.name}`}
         />
         <div>
-          <p>Name: {this.props.name}</p>
-          <p>Capital: {this.props.capital}</p>
-          <p>Population: {this.props.population}</p>
-          <p>Region: {this.props.region}</p>
+          <p>Name : {this.props.name}</p>
+          <p>Capital : {this.props.capital}</p>
+          <p>Population : {this.props.population}</p>
+          <p>Region : {this.props.region}</p>
         </div>  
       </div>
     );
